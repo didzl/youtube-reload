@@ -4,7 +4,7 @@
   "description": "youtube clone",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,12 +17,13 @@
   },
   "homepage": "https://github.com/didzl/youtube-reload#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/node": "^7.14.7",
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
     "@babel/preset-env": "^7.14.7",
-    "nodemon": "^2.0.9"
+    "nodemon": "^2.0.22"
   }
 }
